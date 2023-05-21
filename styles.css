@@ -1,0 +1,43 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.things{
+   display: flex;
+ margin-top: 20px;
+}
+.item{
+    text-align: center;
+    margin: 0 5px;
+    padding: 20px;
+    background-color: rgb(16, 119, 145);
+    color: white;
+    text-decoration: none;
+}
+.item:hover{
+    background-color: rgb(223, 116, 116);
+}
+.action-buttons{
+    display: flex;
+    margin-top: 20px;
+}
+.add{
+    padding: 20px;
+    background-color:seagreen;
+    text-decoration: none;
+    color: white;
+}
+.add:hover{
+    background-color: brown;
+}
