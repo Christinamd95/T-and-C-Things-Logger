@@ -32,12 +32,12 @@ body{
     text-align: center;
     margin: 0 5px;
     padding: 20px;
-    background-color: rgb(16, 119, 145);
+    background-color: rgb(8, 69, 94);
     color: white;
     text-decoration: none;
 }
 .item:hover{
-    background-color: rgb(223, 116, 116);
+    background-color: rgb(214, 122, 122);
 }
 .action-buttons{
     display: flex;
@@ -45,10 +45,31 @@ body{
 }
 .add{
     padding: 20px;
-    background-color:seagreen;
+    background-color:rgb(8, 69, 94);
     text-decoration: none;
     color: white;
 }
 .add:hover{
-    background-color: brown;
+    background-color: rgb(214, 122, 122);
+}
+.home{padding: 20px;
+    background-color:rgb(8, 69, 94);
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: rgb(214, 122, 122);
+}
+table{
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position:static;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+}
+tr{
+    background: rgb(255, 255, 255);;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 5px;
 }
