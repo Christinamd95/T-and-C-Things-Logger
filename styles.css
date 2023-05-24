@@ -1,5 +1,6 @@
 *{
   font-family: 'Montserrat', sans-serif;
+
 }
 body{
     display: flex;
@@ -12,7 +13,8 @@ body{
     position: fixed; 
     left: 0px; 
     top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    z-index: -1; 
+    /* Ensure div tag stays behind content; -999 might work, too. */
 }
 .stretch {
     width:100%;
@@ -72,4 +74,46 @@ tr{
     background: rgb(255, 255, 255);;
     border-bottom: 1px solid #000000;
     margin-bottom: 5px;
+}
+th{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    width: 33.3333%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 248, 224);
+
+}
+thead th{
+    background: rgb(8, 69, 94);
+    font-size: 20px;
+    color: rgb(248, 248, 224);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.search{
+width: 25%;
+padding: 5px;
+color: black;
+}
+.action-buttons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.delete{
+    padding: 20px;
+    background-color:rgb(8, 69, 94);
+    text-decoration: none;
+    color: white;
+}
+.action-buttons{
+    display: flex;
+    margin-top: 20px;
+}
+.addnew{
+    padding: 20px;
+    background-color:rgb(8, 69, 94);
+    text-decoration: none;
+    color: white;
 }
