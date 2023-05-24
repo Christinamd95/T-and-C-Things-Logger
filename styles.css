@@ -71,17 +71,18 @@ table{
     border: 2px solid rgb(0, 0, 0);
 }
 tr{
-    background: rgb(255, 255, 255);;
-    border-bottom: 1px solid #000000;
+    background: rgb(0, 0, 0);;
     margin-bottom: 5px;
+    border: #000000 0.5px;
 }
-th{
+td{
     font-size: 18px;
     font-weight: 400;
     padding: 20px;
     width: 33.3333%;
     color: rgb(0, 0, 0);
     background-color: rgb(248, 248, 224);
+    border: 2px solid rgb(0, 0, 0);
 
 }
 thead th{
@@ -90,6 +91,10 @@ thead th{
     color: rgb(248, 248, 224);
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px;
+    width: 33.3333%;
+    border: 2px solid rgb(0, 0, 0);
 }
 .search{
 width: 25%;
@@ -100,20 +105,12 @@ color: black;
     display: flex;
     margin-top: 20px;
 }
-
-.delete{
-    padding: 20px;
-    background-color:rgb(8, 69, 94);
-    text-decoration: none;
-    color: white;
-}
-.action-buttons{
-    display: flex;
-    margin-top: 20px;
-}
 .addnew{
     padding: 20px;
     background-color:rgb(8, 69, 94);
     text-decoration: none;
     color: white;
+}
+.addnew:hover{
+    background-color: rgb(214, 122, 122);
 }
