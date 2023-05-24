@@ -101,9 +101,9 @@ width: 25%;
 padding: 5px;
 color: black;
 }
-.action-buttons{
-    display: flex;
-    margin-top: 20px;
+/* Christina to Style the button group 😁*/
+.button-group{
+
 }
 .addnew{
     padding: 20px;
@@ -113,4 +113,10 @@ color: black;
 }
 .addnew:hover{
     background-color: rgb(214, 122, 122);
+}
+.title, .title a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
