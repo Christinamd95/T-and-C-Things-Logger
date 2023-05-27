@@ -34,7 +34,7 @@ body{
     text-align: center;
     margin: 0 5px;
     padding: 20px;
-    background-color: rgb(8, 69, 94);
+    background-color: rgb(28, 138, 182);
     color: white;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ body{
 }
 .add{
     padding: 20px;
-    background-color:rgb(8, 69, 94);
+    background-color:rgb(28, 138, 182);
     text-decoration: none;
     color: white;
 }
@@ -55,7 +55,7 @@ body{
     background-color: rgb(214, 122, 122);
 }
 .home{padding: 20px;
-    background-color:rgb(8, 69, 94);
+    background-color:rgb(28, 138, 182);
     text-decoration: none;
     color: white;
 }
@@ -86,8 +86,7 @@ td{
 
 }
 thead th{
-    background: rgb(8, 69, 94);
-    font-size: 20px;
+    background: rgb(28, 138, 182);    font-size: 20px;
     color: rgb(248, 248, 224);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -103,14 +102,14 @@ color: black;
 }
 .button-group{
     padding: 5px;
-    background-color:rgb(8, 69, 94);
+    background-color:rgb(255, 255, 255);
     color: white;
     font-size: medium;
 
 }
 .addnew{
     padding: 20px;
-    background-color:rgb(8, 69, 94);
+    background-color:rgb(28, 138, 182);
     text-decoration: none;
     color: white;
 }
@@ -124,14 +123,22 @@ color: black;
     font-weight: normal;
 }
 .review{
-    color: white;
-    padding: 5px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    position: relative;
+    text-align: right;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 3px;
 }
 .delete{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 5px;
+    position: relative;
+    text-align: right;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 3px;
 }
 *{
     margin: 0;
@@ -171,4 +178,11 @@ color: black;
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
     color: rgb(8, 69, 94);
+}
+.nameofitem{
+    background-color: #ffffff;
+    color: black;
+    width: 20%;
+    position: fixed;
+    padding: 5px;
 }
