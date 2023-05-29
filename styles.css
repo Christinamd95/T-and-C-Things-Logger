@@ -71,16 +71,11 @@ table {
   width: 80%;
   border: 2px solid rgb(0, 0, 0);
 }
-tr {
-  background: rgb(0, 0, 0);
-  margin-bottom: 5px;
-  border: #000000 0.5px;
-}
+
 td {
   font-size: 18px;
   font-weight: 400;
   padding: 20px;
-  width: 33.3333%;
   color: rgb(0, 0, 0);
   background-color: rgb(248, 248, 224);
   border: 2px solid rgb(0, 0, 0);
@@ -93,7 +88,6 @@ thead th {
   text-transform: uppercase;
   font-weight: 400;
   padding: 20px;
-  width: 33.3333%;
   border: 2px solid rgb(0, 0, 0);
 }
 .search {
@@ -120,7 +114,6 @@ thead th {
 .title a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 .review {
