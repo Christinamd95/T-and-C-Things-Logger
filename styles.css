@@ -179,3 +179,17 @@ thead th {
   border-color: rgb(28, 138, 182);
   background-color: rgb(28, 138, 182);
 }
+.reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: center;
+  margin-left: 10%;
+  text-align: center;
+}
+.otherreview {
+text-align: center;
+border: 1px black solid;
+margin-left: 1%;
+padding: 3%;
+}
