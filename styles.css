@@ -181,13 +181,23 @@ thead th {
 }
 .reviews{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: center;
-  margin-left: 10%;
+  justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
-.otherreview {
+
+.other-review, .my-review{
+  width: 40%;
+  flex-wrap: wrap;
+
+}
+
+.my-review-text{
+width: 80%;
+height: 100px;
+resize: none;
+}
+.other-review-text {
 text-align: center;
 border: 1px black solid;
 margin-left: 1%;
