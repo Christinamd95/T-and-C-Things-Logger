@@ -216,3 +216,18 @@ padding: 3%;
 .save-review:hover{
   background-color: rgb(214, 122, 122);
 }
+.profiles{
+  font-family: "Montserrat", sans-serif;
+}
+.manageProfile{
+  padding: 10px;
+  background-color: rgb(28, 138, 182);
+  text-decoration: none;
+  color: white;
+  position:fixed;
+  right: 15%;
+  top: 5%;
+}
+.manageProfile:hover{
+  background-color: rgb(214, 122, 122);
+}
