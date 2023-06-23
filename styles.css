@@ -53,15 +53,7 @@ body {
 }
 .add:hover {
   background-color: rgb(214, 122, 122);
-}
-.home {
-  padding: 20px;
-  background-color: rgb(28, 138, 182);
-  text-decoration: none;
-  color: white;
-}
-.home:hover {
-  background-color: rgb(214, 122, 122);
+
 }
 table {
   left: 10%;
@@ -202,4 +194,25 @@ text-align: center;
 border: 1px black solid;
 margin-left: 1%;
 padding: 3%;
+}
+.save-review{
+  padding: 20px;
+  background-color: rgb(28, 138, 182);
+  text-decoration: none;
+  color: white;
+  position:fixed;
+  left: 20%;
+}
+.delete-review{
+  padding: 20px;
+  background-color: rgb(28, 138, 182);
+  text-decoration: none;
+  color: white;
+  position:fixed;
+  right: 15%;
+  top: 1%;
+}
+.delete-review:hover,
+.save-review:hover{
+  background-color: rgb(214, 122, 122);
 }
