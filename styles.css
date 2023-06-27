@@ -36,8 +36,9 @@ body {
   margin: 0 5px;
   padding: 20px;
   background-color: rgb(28, 138, 182);
-  color: white;
+  color: black;
   text-decoration: none;
+  border: 1px solid black;
 }
 .item:hover {
   background-color: rgb(214, 122, 122);
@@ -50,7 +51,8 @@ body {
   padding: 20px;
   background-color: rgb(28, 138, 182);
   text-decoration: none;
-  color: white;
+  color: black;
+  border: 1px solid black;
 }
 .add:hover {
   background-color: rgb(214, 122, 122);
@@ -97,7 +99,8 @@ thead th {
   padding: 20px;
   background-color: rgb(28, 138, 182);
   text-decoration: none;
-  color: white;
+  color: black;
+  border: 1px solid black;
 }
 .addnew:hover {
   background-color: rgb(214, 122, 122);
@@ -198,18 +201,20 @@ thead th {
   padding: 20px;
   background-color: rgb(28, 138, 182);
   text-decoration: none;
-  color: white;
+  color: black;
   position: fixed;
-  left: 20%;
+  left: 15%;
+  border: 1px solid black;
 }
 .delete-review {
   padding: 20px;
   background-color: rgb(28, 138, 182);
   text-decoration: none;
-  color: white;
+  color: black;
   position: fixed;
   right: 15%;
-  top: 1%;
+  top: 83%;
+  border: 1px solid black;
 }
 .delete-review:hover,
 .save-review:hover {
@@ -230,9 +235,11 @@ thead th {
 }
 .manage-profile-button {
   padding: 10px;
-  background-color: rgb(28, 138, 182);
+  background-color: black;
   text-decoration: none;
   color: white;
+  margin-top: 20%;
+  border: 1px solid white;
 }
 .manage-profile-button:hover {
   background-color: rgb(214, 122, 122);
@@ -256,6 +263,10 @@ thead th {
 }
 
 .login-title {
+  text-decoration: none;
+  color: white;
+}
+.books-title{
   text-decoration: none;
   color: white;
 }
