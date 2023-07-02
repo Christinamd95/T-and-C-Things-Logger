@@ -84,8 +84,9 @@ thead th {
   border: 2px solid rgb(0, 0, 0);
 }
 .search {
-  width: 25%;
+  width: 65%;
   padding: 5px;
+  margin: 10px 0;
   color: black;
 }
 .button-group {
@@ -98,7 +99,6 @@ thead th {
   justify-content: space-around;
   align-items: center;
   border: none;
-  
 }
 .addnew {
   padding: 20px;
@@ -269,7 +269,7 @@ thead th {
   text-decoration: none;
   color: white;
 }
-.books-title{
+.books-title {
   text-decoration: none;
   color: white;
 }
@@ -278,14 +278,14 @@ thead th {
   background-color: black;
   color: white;
 }
-.table-checkbox{
+.table-checkbox {
   padding: 5px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
 }
-.edit-button{
+.edit-button {
   color: rgb(0, 0, 0);
   text-decoration: none;
   text-align: left;
@@ -293,8 +293,14 @@ thead th {
   padding: 1%;
   border-radius: 3px;
 }
-.consumed{
+.consumed {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.media-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }

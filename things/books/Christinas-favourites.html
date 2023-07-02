@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" type="text/css" href="../../normalize.css" />
@@ -13,46 +13,56 @@
     />
     <link rel="stylesheet" type="text/css" href="../../styles.css" />
     <title>Christina's favourite books</title>
-</head>
-<body>
-    <h1 class="title"><a href="../main-page.html">Tashan and Christina's Media Logger!</a></h1> 
-
-    <input class="search" type="search" />
-        </div>
-        </div>
-       <table >
-            <thead><tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Tags</th>
-                <th>Consumed</th>
-                <th>Actions</th>
-            </tr></thead>
+  </head>
+  <body>
+    <div class="media-heading">
+      <h1 class="title">
+        <a href="../main-page.html">Tashan and Christina's Media Logger!</a>
+      </h1>
+      <input class="search" type="search" placeholder="search media" />
+      <label for="filter">Created by:</label>
+      <select name="filter" id="">
+        <option value="both">Both</option>
+        <option value="christina">Christina</option>
+        <option value="tashan">Tashan</option>
+      </select>
+    </div>
+    <table>
+      <thead>
         <tr>
-            <td >&nbsp;</td>
-            <td >&nbsp;</td>
-            <td >&nbsp;</td>
-            <td>
-
-                <div class="table-checkbox">
-                    <div class="consumed">
-                        <span>You</span>
-                        <input type="checkbox"> 
-                    </div>
-                    <div class="consumed">
-                        <span>Them</span>
-                        <input type="checkbox" onclick="return false;"> 
-                    </div>
-            </div>
-                
-            </td>
-            <td><div class="button-group"><a class="review" href="../review.html">Review</a> <a class="delete" href="">Delete</a><a class="edit-button">Edit</a></div></td>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Tags</th>
+          <th>Consumed</th>
+          <th>Actions</th>
         </tr>
-        
-       </table>
-            <div class="action-buttons">
-                <a class="addnew" href="">Add {Book}</a>
-               </div>
-    
-</body>
+      </thead>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>
+          <div class="table-checkbox">
+            <div class="consumed">
+              <span>You</span>
+              <input type="checkbox" />
+            </div>
+            <div class="consumed">
+              <span>Them</span>
+              <input type="checkbox" onclick="return false;" />
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="button-group">
+            <a class="review" href="../review.html">Review</a>
+            <a class="delete" href="">Delete</a><a class="edit-button">Edit</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div class="action-buttons">
+      <a class="addnew" href="">Add {Book}</a>
+    </div>
+  </body>
 </html>
