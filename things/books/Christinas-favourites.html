@@ -29,11 +29,24 @@
                 <th>Actions</th>
             </tr></thead>
         <tr>
-            <td contenteditable="true"> <scope="row">&nbsp;</td>
-            <td contenteditable="true"> <scope="row">&nbsp;</td>
-            <td contenteditable="true"> <scope="row">&nbsp;</td>
-            <td contenteditable="true"> <input type="checkbox"> <scope="row">&nbsp;</td>
-            <td class="button-group"><scope="row"><a class="review" href="../review.html">Review</a> <a class="delete" href="">Delete</a><scope="row"></td>
+            <td >&nbsp;</td>
+            <td >&nbsp;</td>
+            <td >&nbsp;</td>
+            <td>
+
+                <div class="table-checkbox">
+                    <div class="consumed">
+                        <span>You</span>
+                        <input type="checkbox"> 
+                    </div>
+                    <div class="consumed">
+                        <span>Them</span>
+                        <input type="checkbox" onclick="return false;"> 
+                    </div>
+            </div>
+                
+            </td>
+            <td><div class="button-group"><a class="review" href="../review.html">Review</a> <a class="delete" href="">Delete</a><a class="edit-button">Edit</a></div></td>
         </tr>
         
        </table>
