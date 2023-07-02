@@ -45,6 +45,9 @@ body {
 }
 .action-buttons {
   display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 20px;
 }
 .add {
@@ -200,25 +203,15 @@ thead th {
   margin-left: 1%;
   padding: 3%;
 }
-.save-review {
-  padding: 20px;
-  background-color: rgb(28, 138, 182);
-  text-decoration: none;
-  color: black;
-  position: fixed;
-  left: 15%;
-  border: 1px solid black;
-}
+.save-review,
 .delete-review {
   padding: 20px;
   background-color: rgb(28, 138, 182);
   text-decoration: none;
   color: black;
-  position: fixed;
-  right: 15%;
-  top: 83%;
   border: 1px solid black;
 }
+
 .delete-review:hover,
 .save-review:hover {
   background-color: rgb(214, 122, 122);
