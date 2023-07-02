@@ -20,8 +20,8 @@
         <a href="../main-page.html">Tashan and Christina's Media Logger!</a>
       </h1>
       <input class="search" type="search" placeholder="search media" />
-      <label for="filter">Created by:</label>
-      <select name="filter" id="">
+      <label for="filter-by-person">Created by:</label>
+      <select name="filter" id="filter-by-person">
         <option value="both">Both</option>
         <option value="christina">Christina</option>
         <option value="tashan">Tashan</option>
@@ -34,6 +34,7 @@
           <th>Description</th>
           <th>Tags</th>
           <th>Consumed</th>
+          <th>Rating</th>
           <th>Actions</th>
         </tr>
       </thead>
@@ -42,7 +43,7 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>
-          <div class="table-checkbox">
+          <div class="table-data">
             <div class="consumed">
               <span>You</span>
               <input type="checkbox" />
@@ -51,6 +52,22 @@
               <span>Them</span>
               <input type="checkbox" onclick="return false;" />
             </div>
+          </div>
+        </td>
+        <td>
+          <div class="table-data">
+            <select name="rating" id="your-rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
           </div>
         </td>
         <td>
